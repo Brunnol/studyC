@@ -1,18 +1,16 @@
 #include <stdio.h>
 int main(){
   
-  int h, km;
-  double kml = 12.0;
-  double amount = 0.0;
+  double h, km, amount;
   //declarar duas variaveis inteiras e um de ponto flutuante
 
-  scanf("%d %d", &h, &km);
+  scanf("%lf %lf", &h, &km);
 
   //pegar as avariaveis
   
-  amount = (h*km)/ kml ;
+  amount = (h*km)/ 12 ;
  //pegar as avariaveis
-  printf("%0.3f", amount);
+  printf("%.3f\n", amount);
 
     return 0;
 }
